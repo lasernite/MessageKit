@@ -168,7 +168,7 @@ open class AvatarView: UIImageView {
 
     // MARK: - Open setters
     
-    open func set(avatar: Avatar) {
+    open func set(avatar: MessageAvatar) {
         if let image = avatar.image {
             self.image = image
         } else {

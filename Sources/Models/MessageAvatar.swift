@@ -25,7 +25,7 @@
 import Foundation
 
 /// An object used to group the information to be used by an `AvatarView`.
-public struct Avatar {
+public struct MessageAvatar {
     
     // MARK: - Properties
     
