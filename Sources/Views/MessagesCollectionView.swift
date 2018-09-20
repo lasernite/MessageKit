@@ -47,7 +47,7 @@ open class MessagesCollectionView: UICollectionView {
     public override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         super.init(frame: frame, collectionViewLayout: layout)
         // backgroundColor = .white
-        backgroundColor = UIColor(white: 0, alpha: 0.5)
+        backgroundColor = UIColor(white: 0, alpha: 0.0)
         registerReusableViews()
         setupGestureRecognizers()
     }
